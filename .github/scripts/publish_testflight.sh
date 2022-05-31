@@ -2,4 +2,4 @@
 
 set -eo pipefail
 
-xcrun altool --upload-app -t ios -f build/"$NAME".ipa -u "melondesignltd@gmail.com" -p "xjju-efem-razc-bvdp" --verbose
+xcrun altool --upload-app -t ios -f build/"$NAME".ipa -u "$ACC" -p "$PASS" --verbose
