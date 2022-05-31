@@ -11,7 +11,7 @@
 	<key>provisioningProfiles</key>
 	<dict>
 		<key>com.captaincook.casino</key>
-		<string>melonDesignLtdProvisioningProfile</string>
+		<string>CaptainCockProvisioningProfile</string>
 	</dict>
 </dict>
 </plist>
