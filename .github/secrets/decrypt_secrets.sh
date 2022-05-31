@@ -3,7 +3,7 @@ set -eo pipefail
 
 mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
 
-cp ./.github/secrets/CaptainCooksProvisioningProfile.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/CaptainCooksProvisioningProfile.mobileprovision
+cp ./.github/secrets/MELONDESIGNLTDCaptainCooksProvisioningProfile.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/MELONDESIGNLTDCaptainCooksProvisioningProfile.mobileprovision
 
 
 security create-keychain -p "" build.keychain

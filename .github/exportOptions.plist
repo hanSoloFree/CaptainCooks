@@ -10,8 +10,8 @@
 	<true/>
 	<key>provisioningProfiles</key>
 	<dict>
-		<key>com.MELON.CaptainCooks</key>
-		<string>CaptainCooksProvisioningProfile</string>
+		<key>com.MELONDESIGNLTD.CaptainCooks</key>
+		<string>MELONDESIGNLTDCaptainCooksProvisioningProfile</string>
 	</dict>
 </dict>
 </plist>
