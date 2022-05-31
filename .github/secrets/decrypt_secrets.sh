@@ -7,7 +7,7 @@ cp ./.github/secrets/melonDesignLtdProvisioningProfile.mobileprovision ~/Library
 
 
 security create-keychain -p "" build.keychain
-security import ./.github/secrets/Certificates.p12 -t agg -k ~/Library/Keychains/build.keychain -P "1234" -A
+security import ./.github/secrets/Certificates.p12 -t agg -k ~/Library/Keychains/build.keychain -P "123" -A
 
 security list-keychains -s ~/Library/Keychains/build.keychain
 security default-keychain -s ~/Library/Keychains/build.keychain
